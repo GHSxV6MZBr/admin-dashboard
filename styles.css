@@ -26,10 +26,9 @@ header {
 
 }
 .menu {
-
-}
-.site-links {
-
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 40px;    
 }
 
 /* Main */
