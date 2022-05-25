@@ -7,14 +7,33 @@ body {
     grid-auto-rows: 100px;
 }
 
+/* Header */
+
 header {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-aside {
-    grid-column: 1/2;
+
+/* Sidebar */
+
+.sidebar {
     grid-row: 1/7;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 300px 200px;
 }
+.sidebar__container {
+
+}
+.menu {
+
+}
+.site-links {
+
+}
+
+/* Main */
+
 main {
     grid-column: 2/3;
     grid-row: 2/7;
